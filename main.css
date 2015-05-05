@@ -1,0 +1,54 @@
+
+body {
+	font-family:sans-serif;
+	margin:0 auto;
+}
+
+.octocat img {
+	width:422px;
+	border:1px solid #cacaca;
+	margin-right:26px;
+	margin-right:26px;
+
+}
+
+.authors img {
+	width:25px;
+	border:none;
+	float:right;
+	margin-bottom:14px;
+	margin-top:;
+}
+
+.octocat {
+	float:left;
+	border-bottom: 1px solid #cacaca;
+
+}
+
+.authors {
+	float:right;
+}
+
+img {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: px;
+	-khtml-border-radius: 3px;
+}
+
+ul {
+list-style:none;
+}
+
+.image-footer {
+	margin-bottom:5px;
+}
+
+.image-number::before {
+	content:"#";
+}
+
+.image-number{
+	float: left;
+}
