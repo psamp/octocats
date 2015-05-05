@@ -1,7 +1,10 @@
 
 body {
-	font-family:sans-serif;
+	font-family:arial;
+	font-weight:600;
 	margin:0 auto;
+	color:#69636A;
+	font-size: 95%;
 }
 
 .octocat img {
@@ -9,7 +12,6 @@ body {
 	border:1px solid #cacaca;
 	margin-right:26px;
 	margin-right:26px;
-
 }
 
 .authors img {
@@ -17,17 +19,22 @@ body {
 	border:none;
 	float:right;
 	margin-bottom:14px;
-	margin-top:;
+	margin-top: 9px;
+	margin:3px;
+	position:relative;
+
 }
 
 .octocat {
 	float:left;
 	border-bottom: 1px solid #cacaca;
-
+	margin-right: 16px;
+	width:422px;
 }
 
 .authors {
 	float:right;
+	position:relative;
 }
 
 img {
@@ -39,10 +46,18 @@ img {
 
 ul {
 list-style:none;
+vertical-align: middle;
 }
+
 
 .image-footer {
 	margin-bottom:5px;
+	position:relative;
+}
+
+.image-caption {
+	float:right;
+	width:422;
 }
 
 .image-number::before {
@@ -51,4 +66,13 @@ list-style:none;
 
 .image-number{
 	float: left;
+	color:#cacaca;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
 }
